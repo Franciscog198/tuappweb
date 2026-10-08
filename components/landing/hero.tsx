@@ -41,7 +41,7 @@ export function Hero() {
           </div>
 
           <ul className="flex flex-wrap gap-x-6 gap-y-2 pt-2 text-sm font-medium text-ink/70">
-            {['Se adapta a tus procesos', 'Te lo dejamos funcionando', 'Te acompañamos siempre'].map((item) => (
+            {['Se adapta a tus procesos', 'Instalamos todo lo que necesites', 'Capacitación de uso', 'Te acompañamos siempre'].map((item) => (
               <li key={item} className="flex items-center gap-2">
                 <Check className="size-4 text-brand-teal" aria-hidden="true" />
                 {item}
