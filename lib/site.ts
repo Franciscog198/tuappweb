@@ -16,9 +16,9 @@ export const talkHref =
 
 export const navLinks = [
   { label: 'Inicio', href: '#inicio' },
-  // { label: 'Cómo funciona', href: '#como-funciona' },
-  { label: 'Soluciones', href: '#soluciones' },
+  { label: 'Cómo funciona', href: '#como-funciona' },
+  //{ label: 'Soluciones', href: '#soluciones' },
   { label: 'Equipamiento', href: '#equipamiento' },
-  { label: 'Soporte', href: '#soporte' },
+  { label: 'Soporte 24/7', href: '#soporte' },
   { label: 'Contacto', href: '#contacto' },
 ]
