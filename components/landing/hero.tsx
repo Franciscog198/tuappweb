@@ -2,7 +2,7 @@ import Image from 'next/image'
 import { Printer, Wrench, Monitor, Check } from 'lucide-react'
 import { Container, PrimaryCta, SecondaryCta } from './primitives'
 
-const pillars = ['Software de gestión', 'Automatización', 'PC e impresoras térmicas', 'Instalación', 'Soporte técnico', 'Mantenimiento']
+const pillars = ['Sistema de gestión', 'Automatización', 'PC e impresoras térmicas', 'Instalación', 'Soporte técnico', 'Mantenimiento']
 
 export function Hero() {
   return (
@@ -20,7 +20,7 @@ export function Hero() {
         <div className="flex flex-col gap-7">
           <p className="inline-flex w-fit items-center gap-2 rounded-full border border-brand-violet/15 bg-accent px-4 py-1.5 text-sm font-semibold text-brand-indigo">
             <span className="size-2 rounded-full bg-brand-green" aria-hidden="true" />
-            Software + Equipamiento + Soporte
+            Sistema + Equipamiento + Soporte
           </p>
 
           <h1
@@ -31,7 +31,7 @@ export function Hero() {
           </h1>
 
           <p className="max-w-xl text-pretty text-lg leading-relaxed text-muted-foreground md:text-xl">
-            Gestioná, automatizá y hacé crecer tu negocio con una solución que se adapta a tus procesos. Software,
+            Gestioná, automatizá y hacé crecer tu negocio con una solución que se adapta a tus procesos. Sistema,
             equipos, instalación y soporte técnico, todo en un solo lugar.
           </p>
 
