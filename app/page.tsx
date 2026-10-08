@@ -1,17 +1,17 @@
 import { SiteHeader } from '@/components/landing/site-header'
 import { Hero } from '@/components/landing/hero'
-import { ProblemSection } from '@/components/landing/problem-section'
-import { OriginSection } from '@/components/landing/origin-section'
+//import { ProblemSection } from '@/components/landing/problem-section'
+//import { OriginSection } from '@/components/landing/origin-section'
 import { ManagementSection } from '@/components/landing/management-section'
 //import { AutomationSection } from '@/components/landing/automation-section'
 // import { AdaptabilitySection } from '@/components/landing/adaptability-section'
 import { CompleteSolutionSection } from '@/components/landing/complete-solution-section'
 import { SupportSection } from '@/components/landing/support-section'
 //import { ScalabilitySection } from '@/components/landing/scalability-section'
-import { DifferenceSection } from '@/components/landing/difference-section'
+//import { DifferenceSection } from '@/components/landing/difference-section'
 import { HowToStartSection } from '@/components/landing/how-to-start-section'
 //import { UseCasesSection } from '@/components/landing/use-cases-section'
-import { TrustSection } from '@/components/landing/trust-section'
+//import { TrustSection } from '@/components/landing/trust-section'
 import { ContactSection } from '@/components/landing/contact-section'
 import { SiteFooter } from '@/components/landing/site-footer'
 
@@ -35,18 +35,18 @@ export default function Page() {
       <SiteHeader />
       <main id="contenido">
         <Hero />
-        <ProblemSection />
-        <OriginSection />
+        {/* <ProblemSection /> */}
+        {/* <OriginSection /> */}
         <ManagementSection />
         {/* <AutomationSection /> */}
         {/* <AdaptabilitySection /> */}
         <CompleteSolutionSection />
         <SupportSection />
         {/* <ScalabilitySection /> */}
-        <DifferenceSection />
+        {/* <DifferenceSection /> */}
         <HowToStartSection />
-        {/* <UseCasesSection /> */}
-        <TrustSection />
+        <UseCasesSection /> 
+        {/* <TrustSection /> */}
         <ContactSection />
       </main>
       <SiteFooter />
