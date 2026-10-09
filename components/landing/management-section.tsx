@@ -37,7 +37,8 @@ export function ManagementSection() {
           </ul>
           <p className="reveal text-sm text-muted-foreground">
             Lo armamos según lo que tu negocio necesita. 
-              <br>
+          </p>
+          <p>
             Nada de funciones que no vas a usar.
           </p>
         </div>
