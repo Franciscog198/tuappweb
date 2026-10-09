@@ -3,8 +3,8 @@ import { AppWindow, Monitor, Printer, Cable, Headset, Settings2 } from 'lucide-r
 import { Container, SectionHeading } from './primitives'
 
 const items = [
-  { icon: Monitor, title: 'PC y equipos', text: 'Te asesoramos para que tengas el equipo adecuado para tu negocio.' },
-  { icon: Printer, title: 'Impresoras térmicas', text: 'Tickets y comandas rápidas, claras y sin tinta.' },
+  { icon: Monitor, title: 'PC y Punto de Venta', text: 'Te asesoramos para que tengas el equipo adecuado para tu negocio.' },
+  { icon: Printer, title: 'Impresoras térmicas', text: 'Tickets, cupones, etiquetas o comandas rápidas, claras y sin tinta.' },
   { icon: Cable, title: 'Instalación', text: 'Dejamos todo conectado, configurado y funcionando.' },
   { icon: Headset, title: 'Soporte técnico', text: 'Cuando algo pasa, sabés exactamente a quién llamar.' },
   { icon: Settings2, title: 'Insumos', text: 'Tenemos todo lo que necesitás para empezar hoy.' },
@@ -20,10 +20,10 @@ export function CompleteSolutionSection() {
           eyebrow="Solución completa"
           title={
             <>
-              Software, equipos y soporte. <span className="text-brand-gradient">Todo del mismo lado.</span>
+              Software, equipos y soporte. <br><span className="text-brand-gradient">Todo del mismo lado.</span></br>
             </>
           }
-          description="No tenés que coordinar con un proveedor para el sistema, otro para la PC y otro para la impresora. Con TuApp hablás con un solo equipo que se ocupa de todo."
+          description="No tenés que coordinar con un proveedor para el sistema, otro para la PC y otro para la impresora. Nosotros nos ocupamos de todo."
         />
 
         <div className="grid gap-4 lg:grid-cols-3 lg:grid-rows-2">
