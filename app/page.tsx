@@ -6,7 +6,7 @@ import { ManagementSection } from '@/components/landing/management-section'
 //import { AutomationSection } from '@/components/landing/automation-section'
 // import { AdaptabilitySection } from '@/components/landing/adaptability-section'
 import { CompleteSolutionSection } from '@/components/landing/complete-solution-section'
-import { SupportSection } from '@/components/landing/support-section'
+//import { SupportSection } from '@/components/landing/support-section'
 //import { ScalabilitySection } from '@/components/landing/scalability-section'
 //import { DifferenceSection } from '@/components/landing/difference-section'
 import { HowToStartSection } from '@/components/landing/how-to-start-section'
@@ -41,7 +41,7 @@ export default function Page() {
         {/* <AutomationSection /> */}
         {/* <AdaptabilitySection /> */}
         <CompleteSolutionSection />
-        <SupportSection />
+        {/* <SupportSection /> */}
         {/* <ScalabilitySection /> */}
         {/* <DifferenceSection /> */}
         <HowToStartSection />
