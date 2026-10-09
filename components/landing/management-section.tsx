@@ -15,6 +15,30 @@ export function ManagementSection() {
   return (
     <section id="como-funciona" aria-labelledby="gestion-title" className="bg-white py-24 md:py-32">
       <Container className="grid items-center gap-14 lg:grid-cols-[1fr_1.1fr] lg:gap-20">
+        
+
+        <div className="reveal relative">
+          <div className="relative aspect-[4/3.2] overflow-hidden rounded-[2rem]">
+            <Image
+              src="/images/comercio-tablet.webp"
+              alt="Dueña de un comercio revisando la información de su negocio en una tablet"
+              fill
+              sizes="(min-width: 1024px) 50vw, 100vw"
+              className="object-cover"
+            />
+          </div>
+          <div className="absolute -bottom-6 left-6 right-6 grid grid-cols-2 gap-px overflow-hidden rounded-2xl bg-ink/10 shadow-xl sm:left-auto sm:w-80">
+            <div className="flex flex-col gap-1 bg-white p-4">
+              <span className="text-xs font-semibold uppercase tracking-wider text-muted-foreground">Antes</span>
+              <span className="text-sm font-bold text-ink">Papeles y memoria</span>
+            </div>
+            <div className="flex flex-col gap-1 bg-ink p-4">
+              <span className="text-xs font-semibold uppercase tracking-wider text-brand-green">Con TuApp</span>
+              <span className="text-sm font-bold text-white">Todo a la vista</span>
+            </div>
+          </div>
+        </div>
+
         <div className="flex flex-col gap-10">
           <SectionHeading
             id="gestion-title"
@@ -40,28 +64,6 @@ export function ManagementSection() {
             <br />
             Nada de funciones que no vas a usar.
           </p>
-        </div>
-
-        <div className="reveal relative">
-          <div className="relative aspect-[4/3.2] overflow-hidden rounded-[2rem]">
-            <Image
-              src="/images/comercio-tablet.webp"
-              alt="Dueña de un comercio revisando la información de su negocio en una tablet"
-              fill
-              sizes="(min-width: 1024px) 50vw, 100vw"
-              className="object-cover"
-            />
-          </div>
-          <div className="absolute -bottom-6 left-6 right-6 grid grid-cols-2 gap-px overflow-hidden rounded-2xl bg-ink/10 shadow-xl sm:left-auto sm:w-80">
-            <div className="flex flex-col gap-1 bg-white p-4">
-              <span className="text-xs font-semibold uppercase tracking-wider text-muted-foreground">Antes</span>
-              <span className="text-sm font-bold text-ink">Papeles y memoria</span>
-            </div>
-            <div className="flex flex-col gap-1 bg-ink p-4">
-              <span className="text-xs font-semibold uppercase tracking-wider text-brand-green">Con TuApp</span>
-              <span className="text-sm font-bold text-white">Todo a la vista</span>
-            </div>
-          </div>
         </div>
       </Container>
     </section>
