@@ -7,7 +7,7 @@ const items = [
   { icon: Printer, title: 'Impresoras térmicas', text: 'Tickets y comandas rápidas, claras y sin tinta.' },
   { icon: Cable, title: 'Instalación', text: 'Dejamos todo conectado, configurado y funcionando.' },
   { icon: Headset, title: 'Soporte técnico', text: 'Cuando algo pasa, sabés exactamente a quién llamar.' },
-  { icon: Settings2, title: 'Mantenimiento', text: 'Cuidamos tus equipos para que no te frenen.' },
+  { icon: Settings2, title: 'Insumos', text: 'Tenemos todo lo que necesitás para empezar hoy.' },
 ]
 
 export function CompleteSolutionSection() {
