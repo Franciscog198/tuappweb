@@ -40,8 +40,8 @@ export default function Page() {
         <ManagementSection />
         {/* <AutomationSection /> */}
         {/* <AdaptabilitySection /> */}
-        <HowToStartSection />
         <CompleteSolutionSection />
+        <HowToStartSection />
         {/* <SupportSection /> */}
         {/* <ScalabilitySection /> */}
         {/* <DifferenceSection /> */}
