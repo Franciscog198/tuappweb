@@ -20,7 +20,7 @@ export function CompleteSolutionSection() {
           eyebrow="Solución completa"
           title={
             <>
-              Software, equipos y soporte. <br><span className="text-brand-gradient">Todo del mismo lado.</span></br>
+              Software, equipos y soporte. <br /><span className="text-brand-gradient">Todo del mismo lado.</span>
             </>
           }
           description="No tenés que coordinar con un proveedor para el sistema, otro para la PC y otro para la impresora. Nosotros nos ocupamos de todo."
