@@ -59,11 +59,7 @@ export function ManagementSection() {
               </li>
             ))}
           </ul>
-          <p className="reveal text-sm text-muted-foreground">
-            Lo armamos según lo que tu negocio necesita. 
-            <br />
-            Nada de funciones que no vas a usar.
-          </p>
+          
         </div>
       </Container>
     </section>
