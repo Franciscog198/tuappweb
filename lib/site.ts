@@ -19,6 +19,6 @@ export const navLinks = [
   { label: 'Cómo funciona', href: '#como-funciona' },
   //{ label: 'Soluciones', href: '#soluciones' },
   { label: 'Equipamiento', href: '#equipamiento' },
-  { label: 'Soporte 24/7', href: '#soporte' },
+  //{ label: 'Soporte 24/7', href: '#soporte' },
   { label: 'Contacto', href: '#contacto' },
 ]
