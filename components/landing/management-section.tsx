@@ -14,10 +14,10 @@ const areas = [
 export function ManagementSection() {
   return (
     <section id="como-funciona" aria-labelledby="gestion-title" className="bg-white py-24 md:py-32">
-      <Container className="grid items-center gap-14 lg:grid-cols-[1fr_1.1fr] lg:gap-20">
+      <Container className="grid grid-cols-1 items-center gap-14 lg:grid-cols-[1fr_1.1fr] lg:gap-20">
         
 
-        <div className="reveal relative">
+        <div className="reveal relative order-2 lg:order-1">
           <div className="relative aspect-[4/3.2] overflow-hidden rounded-[2rem]">
             <Image
               src="/images/comercio-tablet.webp"
@@ -39,7 +39,7 @@ export function ManagementSection() {
           </div>
         </div>
 
-        <div className="flex flex-col gap-10">
+        <div className="order-1 flex flex-col gap-10 lg:order-2">
           <SectionHeading
             id="gestion-title"
             eyebrow="Gestión"
