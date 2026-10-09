@@ -33,15 +33,15 @@ export function ContactSection() {
                 </a>
               </li>
             )}
-            <li>
-              <a
+        {/* <li>
+               <a
                 href={`mailto:${site.email}`}
                 className="inline-flex items-center gap-3 text-lg font-semibold text-white hover:text-brand-green"
               >
                 <Mail className="size-5 text-brand-green" aria-hidden="true" />
                 {site.email}
-              </a>
-            </li>
+              </a> 
+            </li> */}
           </ul>
         </div>
 
