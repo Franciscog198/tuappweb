@@ -41,7 +41,7 @@ export function Hero() {
           </div>
 
           <ul className="flex flex-wrap gap-x-6 gap-y-2 pt-2 text-sm font-medium text-ink/70">
-            {['Se adapta a tus procesos', 'Instalamos todo lo que necesites', 'Capacitación de uso', 'Te acompañamos siempre'].map((item) => (
+            {['Se adapta a tus procesos', 'Instalamos todo lo que necesitás', 'Capacitación de uso', 'Te acompañamos siempre'].map((item) => (
               <li key={item} className="flex items-center gap-2">
                 <Check className="size-4 text-brand-teal" aria-hidden="true" />
                 {item}
@@ -63,15 +63,15 @@ export function Hero() {
             <div className="absolute inset-0 bg-gradient-to-t from-ink/40 via-transparent to-transparent" aria-hidden="true" />
           </div>
 
-          <div className="absolute -bottom-6 left-4 flex items-center gap-3 rounded-2xl bg-white p-3 pr-5 shadow-xl ring-1 ring-ink/5 sm:-left-6">
+          {/* <div className="absolute -bottom-6 left-4 flex items-center gap-3 rounded-2xl bg-white p-3 pr-5 shadow-xl ring-1 ring-ink/5 sm:-left-6">
             <span className="flex size-11 items-center justify-center rounded-xl bg-green-gradient text-white">
               <Printer className="size-5" aria-hidden="true" />
             </span>
-            <span className="flex flex-col">
-              <span className="text-sm font-bold text-ink">Pedido listo</span>
-              <span className="text-xs text-muted-foreground">Comanda impresa automáticamente</span>
-            </span>
-          </div>
+             <span className="flex flex-col">
+              <span className="text-sm font-bold text-ink">Digitalizá</span>
+              <span className="text-xs text-muted-foreground">tu negocio</span>
+            </span> 
+          </div> */}
 
           <div className="absolute -top-5 right-4 hidden items-center gap-2 rounded-2xl bg-ink px-4 py-3 text-white shadow-xl sm:flex md:-right-4">
             <Monitor className="size-4 text-brand-green" aria-hidden="true" />
